@@ -17,38 +17,26 @@ data: Contain the dataset of the project.
 
 <h3>Structure of the datset</h3>
 
- Each row of the dataset collects data for the houses. For each house, 10 pieces of data are recorded. Therefore, the dataset is composed of 10 columns, with the following description:
+Each row of the dataset collects data for the houses. For each house, 10 pieces of data are recorded. Therefore, the dataset is composed of 10 columns, with the following description:
 
-row_id: of type int, it is an integer identifier.
-country: of type str, represents the initial of the country of the record.
-is_urban: of type boolean, represents whether the country is urban or not.
-age: of type int, represents the age of the person.
-female: boolean, represents whether the person is female or not.
-married: of type boolean, represents whether the person is married or not.
-religion: of type str, represents the person's religion.
-relationship_to_hh_head: of type str, represents the family situation, if he/she is head of the family, father.
-education_level: of type int, represents the level of education of the person.
-can_add: of type boolean, it represents if the person knows how to add.
-num_times_borrowed_last_year: of type int, represents the number of times indebted in the last year.
-can_use_internet: boolean, represents whether the person knows how to use the internet.
-phone_ownership: of type int, represents the number of mobile phones owned by the person.
+longitude: of type float, represents the longitude where the house is located.
+latitude: of type float, represents the latitude where the house is located.
+housing_median_age: of type int, represents the age of the owners of the houses.
+total_rooms: of type int, represents the number of rooms.
+total_bedrooms: of type int, represents the number of bedrooms.
+population: of type int, represents the number of population.
+households: of type int, represents the number of households.
+median_income: of type float, represents the average household income rates fluctuate.
+median_house_value: of type int, represents the value of the houses.
+ocean_proximity: of type str, represents the proximity to the ocean.
 
 
-<columna 1>: de tipo <tipo>, representa....
-<columna 2>: de tipo <tipo>, representa.... ....
-Tipos implementados
-Descrbe aquí la o las namedtuple que defines en tu proyecto.
+ <h3>Implemented types</h3>
+ 
+To work with the data in the dataset, the following named tuple has been defined:
 
-<h3>Funciones implementadas</h3>
-Añade aquí descripciones genéricas de las funciones, que luego debes acompañar con comentarios de tipo documentación en el código
+Info = namedtuple( "Info","longitude, latitude, housing_median_age, total_rooms, total_bedrooms, population, households, median_income, median_house_value, ocean_proximity")
 
-<modulo 1>
-<funcion 1>: Descripción de la función 1.
-<funcion 2>: Descripción de la función 2.
-...
-<test modulo 1>
-<test funcion 1>: Descripción de las pruebas realizadas a la función 1.
-<test funcion 2>: Descripción de las pruebas realizadas a la función 2.
-...
-<modulo 2>
-<funcion 1>: Descripción de la funció
+Where the types of each of the fields are as follows:
+
+Info(float, float, int, int, int, int, int, float, int, str)
