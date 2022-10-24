@@ -51,7 +51,7 @@ housing module.
 lee_fichero(fichero): reads the data from the csv file and returns a list of Info type tuples with the data from the file. 
  
  
-housing-_test module.
+housing_test module.
  
 The following test function has been defined in the test module, which is used to test the function with the same name. For example, the function test_lee_fichero tests the function lee_fichero.
 
