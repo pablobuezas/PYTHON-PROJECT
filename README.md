@@ -1,54 +1,54 @@
-Proyecto del Primer Cuatrimestre Fundamentos de Programación (Curso 20/21)
-Autor/a: Jairo Escánez García; uvus:<uvus del autor>
+<h2>Project of the First Semester Fundamentals of Programming (Curso <22>/<23>)</h2>
 
-Revisión, reestructuración y adaptación para FP: Toñi Reina
+Author: Pablo Buezas Humanes; uvus:pabbuehum
 
-Este es un ejemplo de proyecto realizado por un estudiante en el curso 2020/21. El código del estudiante se ha corregido, reestructurado y adaptado.
+Houses prices in California.
 
-El proyecto tiene como objetivo analizar los datos de pobreza publicados en el dataset de Kaggle que se puede descargar de la siguiente URL (https://www.kaggle.com/johnnyyiu/predicting-poverty). El dataset original tiene 59 columnas, ninguna de las cuales es de tipo fecha. Así que, por una parte, se ha recortado el número de columnas escogiendo sólo 13 de las 59 columnas, y se han añadido dos columnas, una de tipo entero que recoge el dinero que tiene en el banco la persona, y otra columna de tipo fecha, que se ha generado con fechas aleatorias y que representa la fecha en la que se perdió el trabajo.
+<p>This project is based on the houses prices in California, the project analyzes the house prices data published in 
+this Kaggle dataset (https://www.kaggle.com/datasets/ahmedzaky01/housing?select=housing.csv). The dataset has 10 columns.
 
-Estructura de las carpetas del proyecto
-/src: Contiene los diferentes módulos de Python que conforman el proyecto.
-poverty.py: Contiene funciones para explotar los datos sobre pobreza.
-poverty_test.py: Contiene funciones de test para probar las funciones del módulo poverty.py. En este módulo está el main
-parsers.py: Contiene funciones de parseo de datos.
-graficas.py: Contiene funciones para dibujar gráficas
-/data: Contiene el dataset o datasets del proyecto
-poverty_data.csv: Archivo con los datos de pobreza que van a ser explotados.
-Estructura del dataset
-Cada fila del dataset recoge los datos anonimizados de una persona, es decir, no sabemos sus nombre ni sus apellidos. Para cada persona se registran 15 datos. Por lo tanto, el dataset está compuesto por 15 columnas, con la siguiente descripción:
+<h3>Structure of the project´s folders</h3>
+src: Contain different Python´s modules that form the project.
+<housing.py>: 
+<housing_test.py>:
+data: Contain the dataset of the project.
+ housing.csv
+  
 
-row_id: de tipo int, es un identificador entero.
-country: de tipo str, representa la inicial del país del registro.
-is_urban: de tipo boolean, representa si el país es urbano o no.
-age: de tipo int, representa la edad de la persona.
-female: de tipo boolean, representa si es de género femenino o no.
-married: de tipo boolean, representa si está casado o no.
-religion: de tipo str, representa la religión de la persona.
-relationship_to_hh_head: de tipo str, representa la situación familiar, si es cabeza de familia, padre.
-education_level: de tipo int, representa el nivel de estudios de la persona.
-can_add: de tipo boolean, representa si sabe sumar.
-num_times_borrowed_last_year: de tipo int, representa el número de veces endeudado en el último año.
-can_use_internet: de tipo boolean, representa si la persona sabe usar internet.
-phone_ownership: de tipo int, representa el número de móviles que posee la persona.
-dinero_en_banco: de tipo int, representa el dinero que posee la persona en el banco. Esta columna se ha generado con datos aleatorios.
-fecha_ultimo_trabajo: de tipo date, representa la fecha de la última vez que estuvo trabajando. Esta columna se ha generado con datos aleatorios.
+<h3>Structure of the datset</h3>
+
+ Each row of the dataset collects data for the houses. For each house, 10 pieces of data are recorded. Therefore, the dataset is composed of 10 columns, with the following description:
+
+row_id: of type int, it is an integer identifier.
+country: of type str, represents the initial of the country of the record.
+is_urban: of type boolean, represents whether the country is urban or not.
+age: of type int, represents the age of the person.
+female: boolean, represents whether the person is female or not.
+married: of type boolean, represents whether the person is married or not.
+religion: of type str, represents the person's religion.
+relationship_to_hh_head: of type str, represents the family situation, if he/she is head of the family, father.
+education_level: of type int, represents the level of education of the person.
+can_add: of type boolean, it represents if the person knows how to add.
+num_times_borrowed_last_year: of type int, represents the number of times indebted in the last year.
+can_use_internet: boolean, represents whether the person knows how to use the internet.
+phone_ownership: of type int, represents the number of mobile phones owned by the person.
+
+
+<columna 1>: de tipo <tipo>, representa....
+<columna 2>: de tipo <tipo>, representa.... ....
 Tipos implementados
-Para trabajar con los datos del dataset se ha definido la siguiente tupla con nombre:
+Descrbe aquí la o las namedtuple que defines en tu proyecto.
 
-Info = namedtuple('Info','id, pais, es_urbano, edad, genero, casado, religion, situacion_familiar,nivel_educacion,sabe_sumar, veces_endeudado,puede_usar_internet,num_moviles,dinero_banco,fecha_ultimo_trabajo')
+<h3>Funciones implementadas</h3>
+Añade aquí descripciones genéricas de las funciones, que luego debes acompañar con comentarios de tipo documentación en el código
 
-en la que los tipos de cada uno de los campos son los siguientes:
-
-Info(int, str, boolean, int, str. boolean, str, str, in, boolean, int, boolean, int, int, datetime.date)
-
-Las decisiones de diseño más destacadas de este tipo son:
-
-El campo genero es de tipo str, en lugar de boolean como aparece en el dataset original, y puede tomar los valores 'Hombre' o 'Mujer'.
-Funciones implementadas
-En este proyecto se han implementado las siguientes funciones, que están clasificadas según los bloques y tipos de funciones que se requieren en cada una de las entregas. El módulo principal es el módulo poverty.py, así que aquí es donde se hará referencia a cada uno de los bloques de las entregas.
-
-Módulo poverty
-Entrega 1
-Bloque 0
-lee_fichero(fichero): lee los datos del fichero csv y devuelve una lista de tuplas de tipo Info con los datos del fichero.
+<modulo 1>
+<funcion 1>: Descripción de la función 1.
+<funcion 2>: Descripción de la función 2.
+...
+<test modulo 1>
+<test funcion 1>: Descripción de las pruebas realizadas a la función 1.
+<test funcion 2>: Descripción de las pruebas realizadas a la función 2.
+...
+<modulo 2>
+<funcion 1>: Descripción de la funció
