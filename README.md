@@ -8,10 +8,10 @@ Houses prices in California.
 this Kaggle dataset (https://www.kaggle.com/datasets/ahmedzaky01/housing?select=housing.csv). The dataset has 10 columns.</p>
 
 <h3>Structure of the project´s folders</h3>
-<p>src: Contain different Python´s modules that form the project.<br>
+ <p><strong>src</strong>: Contain different Python´s modules that form the project.<br>
 housing.py: <br>
  housing_test.py: </p>
-<p>data: Contain the dataset of the project.<br>
+ <p><strong>data</strong>: Contain the dataset of the project.<br>
  housing.csv </p>
   
 
@@ -19,16 +19,16 @@ housing.py: <br>
 
 <p>Each row of the dataset collects data for the houses. For each house, 10 pieces of data are recorded. Therefore, the dataset is composed of 10 columns, with the following description: </p>
 
-<p>longitude: of type float, represents the longitude where the house is located. <br>
-latitude: of type float, represents the latitude where the house is located. <br>
-housing_median_age: of type int, represents the age of the owners of the houses. <br>
-total_rooms: of type int, represents the number of rooms. <br>
-total_bedrooms: of type int, represents the number of bedrooms. <br>
-population: of type int, represents the number of population. <br>
-households: of type int, represents the number of households. <br>
-median_income: of type float, represents the average household income rates fluctuate. <br>
-median_house_value: of type int, represents the value of the houses. <br>
- ocean_proximity: of type str, represents the proximity to the ocean. </p>
+<p><strong>longitude</strong>: of type float, represents the longitude where the house is located. <br>
+<strong>latitude</strong>: of type float, represents the latitude where the house is located. <br>
+<strong>housing_median_age</strong>: of type int, represents the age of the owners of the houses. <br>
+<strong>total_rooms</strong>: of type int, represents the number of rooms. <br>
+<strong>total_bedrooms</strong>: of type int, represents the number of bedrooms. <br>
+<strong>population</strong>: of type int, represents the number of population. <br>
+<strong>households</strong>: of type int, represents the number of households. <br>
+<strong>median_income</strong>: of type float, represents the average household income rates fluctuate. <br>
+<strong>median_house_value</strong>: of type int, represents the value of the houses. <br>
+<strong>ocean_proximity</strong>: of type str, represents the proximity to the ocean. </p>
 
 
  <h3>Implemented types</h3>
@@ -46,13 +46,13 @@ median_house_value: of type int, represents the value of the houses. <br>
 
 <p>The following functions have been implemented in this project, which are classified according to the blocks and types of functions required in each of the deliverables. The main module is the housing.py module, so this is where each of the blocks of the deliverables will be referred to. </p>
 
- <p>housing module. </p>
+ <p><h4>housing module.</h4> </p>
  
-<p>lee_fichero(fichero): reads the data from the csv file and returns a list of Info type tuples with the data from the file. </p>
+ <p><strong>lee_fichero(fichero)</strong>: reads the data from the csv file and returns a list of Info type tuples with the data from the file. </p>
  
  
- <p>housing_test module. </p>
+ <p><h4>housing_test module.</h4> </p>
  
 <p>The following test function has been defined in the test module, which is used to test the function with the same name. For example, the function test_lee_fichero tests the function lee_fichero. </p>
 
- <p>test_lee_fichero(fichero) </p>
+ <p><strong>test_lee_fichero(fichero)</strong> </p>
