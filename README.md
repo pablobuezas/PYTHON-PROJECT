@@ -40,3 +40,14 @@ Info = namedtuple( "Info","longitude, latitude, housing_median_age, total_rooms,
 Where the types of each of the fields are as follows:
 
 Info(float, float, int, int, int, int, int, float, int, str)
+ 
+ 
+ <h3>Implemented functions</h3>
+
+The following functions have been implemented in this project, which are classified according to the blocks and types of functions required in each of the deliverables. The main module is the housing.py module, so this is where each of the blocks of the deliverables will be referred to.
+
+Housing module.
+ 
+lee_fichero(fichero): reads the data from the csv file and returns a list of Info type tuples with the data from the file. 
+ 
+ 
