@@ -26,8 +26,9 @@ this Kaggle dataset (https://www.kaggle.com/datasets/ahmedzaky01/housing?select=
 
 <p>Each row of the dataset collects data for the houses. For each house, 10 pieces of data are recorded. Therefore, the dataset is composed of 10 columns, with the following description: </p>
 
+<p>
 <ul>
-<li><p><strong>longitude</strong>: of type float, represents the longitude where the house is located. <br></li>
+<li><strong>longitude</strong>: of type float, represents the longitude where the house is located. <br></li>
 <li><strong>latitude</strong>: of type float, represents the latitude where the house is located. <br></li>
 <li><strong>housing_median_age</strong>: of type int, represents the age of the owners of the houses. <br></li>
 <li><strong>total_rooms</strong>: of type int, represents the number of rooms. <br></li>
@@ -36,8 +37,9 @@ this Kaggle dataset (https://www.kaggle.com/datasets/ahmedzaky01/housing?select=
 <li><strong>households</strong>: of type int, represents the number of households. <br></li>
 <li><strong>median_income</strong>: of type float, represents the average household income rates fluctuate. <br></li>
 <li><strong>median_house_value</strong>: of type int, represents the value of the houses. <br></li>
-<li><strong>ocean_proximity</strong>: of type str, represents the proximity to the ocean. </p></li>
+<li><strong>ocean_proximity</strong>: of type str, represents the proximity to the ocean. </li>
 </ul>
+</p>
 
 
 <h2>Implemented types</h2>
