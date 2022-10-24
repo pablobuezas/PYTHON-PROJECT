@@ -1,13 +1,12 @@
-Project of the First Semester Fundamentals of Programming (Curso <21>/<22>)
+Project of the First Semester Fundamentals of Programming (Curso <22>/<23>)
 Author: Pablo Buezas Humanes; uvus:pabbuehum
 
-Atmospheric science, oil and gas.
+House prices in California.
 
-This project is based on the climate change, the project analyzes the climate change data published in this Kaggle dataset (https://www.kaggle.com/econdata/climate-change?select=climate_change.csv). The dataset has 11 columns.
+This project is based on the climate change, the project analyzes the house prices in California data published in this Kaggle dataset (https://www.kaggle.com/datasets/ahmedzaky01/housing?select=housing.csv)). The dataset has 10 columns.
 
 Estructura de las carpetas del proyecto
-src: Contiene los diferentes módulos de Python que conforman el proyecto. : : :
-<dataset1.csv>: <dataset2.csv>:
+src: Contiene los diferentes módulos de Python que conforman el proyecto.
 
 Estructura del dataset
 Aquí debes describir la estructura del dataset explicando qué representan los datos que contiene y la descripción de cada una de las columnas.
