@@ -10,8 +10,8 @@ this Kaggle dataset (https://www.kaggle.com/datasets/ahmedzaky01/housing?select=
 <h3>Structure of the project´s folders</h3>
 <p>src: Contain different Python´s modules that form the project.<br>
 housing.py: <br>
-housing_test.py: <br>
-data: Contain the dataset of the project.<br>
+ housing_test.py: </p>
+<p>data: Contain the dataset of the project.<br>
  housing.csv </p>
   
 
